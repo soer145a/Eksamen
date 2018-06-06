@@ -65,6 +65,7 @@ body {
 	color: white;
 	text-align: center;
 	font-size: 2.5vw;
+	font-family: 'Roboto Slab', serif;
 }
 
 h1 {
@@ -155,6 +156,7 @@ footer p {
 	text-align: center;
 	font-size: 1.5vw;
 	color: white;
+	font-family: 'Roboto Slab', serif;
 }
 
 #tema1_blok1 {
@@ -176,18 +178,21 @@ footer p {
 	font-size: 1.5vw;
 	color: white;
 	padding: 1vw;
+	font-family: 'Roboto Slab', serif;
 }
 
 #tema1_blok1 img {
-	padding: 1vw;
+	transform: scale(0.9);
 }
 
 #tema1_blok2 img {
-	padding: 1vw;
+
+	transform: scale(0.9);
 }
 
 #blok2 img {
 	width: 100%;
+
 }
 
 #tema1_blok2 p {
@@ -195,6 +200,7 @@ footer p {
 	font-size: 1.5vw;
 	color: white;
 	padding: 1vw;
+	font-family: 'Roboto Slab', serif;
 }
 
 #tema1_blok2 {
@@ -205,4 +211,20 @@ footer p {
 #blok2 {
 	flex-basis: 100px;
 	flex-grow: 1;
+}
+
+#tema1_blok1 p {
+	text-align: center;
+	font-size: 1.5vw;
+	color: white;
+	padding: 1vw;
+	font-family: 'Roboto Slab', serif;
+}
+
+#afslutende_tekst {
+	text-align: center;
+	font-size: 1.5vw;
+	color: white;
+	padding: 1vw;
+	font-family: 'Roboto Slab', serif;
 }
