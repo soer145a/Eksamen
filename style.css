@@ -2,6 +2,7 @@ body {
 	margin: 0;
 	font-family: ;
 	background-color: black;
+	padding-bottom: 2vw;
 }
 
 .topnav {
@@ -70,6 +71,14 @@ h1 {
 	color: white;
 	font-family: 'Bangers', cursive;
 	text-align: center;
+	letter-spacing: 3px;
+}
+
+h2 {
+	color: white;
+	font-family: 'Bangers', cursive;
+	text-align: center;
+	letter-spacing: 3px;
 }
 
 footer {
@@ -78,11 +87,16 @@ footer {
 	position: fixed;
 	font-family: 'Bangers', cursive;
 	left: 40%;
+	background-color: darkred;
 
 }
 
 footer p {
-	color: white
+	color: white;
+	padding-left: 7px;
+	padding-right: 7px;
+
+
 }
 
 #forside_billede1 img {
@@ -127,7 +141,7 @@ footer p {
 }
 
 #omMig_p1 {
-	align-self: center;
+	text-align: center;
 	font-size: 1.5vw;
 	color: white;
 }
@@ -135,4 +149,60 @@ footer p {
 #omMig_liste1 {
 	color: white;
 	font-size: 1.5vw;
+}
+
+#tema1_overskrift p {
+	text-align: center;
+	font-size: 1.5vw;
+	color: white;
+}
+
+#tema1_blok1 {
+	flex-wrap: wrap;
+	display: flex;
+}
+
+#blok1 {
+	flex-basis: 100px;
+	flex-grow: 1;
+}
+
+#blok1 img {
+	width: 100%;
+}
+
+#tema1_blok1 p {
+	text-align: center;
+	font-size: 1.5vw;
+	color: white;
+	padding: 1vw;
+}
+
+#tema1_blok1 img {
+	padding: 1vw;
+}
+
+#tema1_blok2 img {
+	padding: 1vw;
+}
+
+#blok2 img {
+	width: 100%;
+}
+
+#tema1_blok2 p {
+	text-align: center;
+	font-size: 1.5vw;
+	color: white;
+	padding: 1vw;
+}
+
+#tema1_blok2 {
+	flex-wrap: wrap;
+	display: flex;
+}
+
+#blok2 {
+	flex-basis: 100px;
+	flex-grow: 1;
 }
