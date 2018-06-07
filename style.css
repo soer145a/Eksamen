@@ -252,16 +252,24 @@ ul {
 	list-style-type: none;
 }
 
-#link_knap {
+#link_knap1,
+#link_knap2 {
 	background: radial-gradient(ellipse at center, #110308 0%, #ff0000 100%);
 	width: 20vw;
 	height: 10vw;
 }
 
-#link_knap p {
+#link_knap1,
+#link_knap2 p {
 	color: white;
 	font-family: 'Bangers', cursive;
 	text-align: center;
 	letter-spacing: 3px;
 	font-size: 3.5vw;
+}
+
+#container2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
