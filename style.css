@@ -249,4 +249,19 @@ ul {
 	font-size: 1.5vw;
 	color: white;
 	font-family: 'Roboto Slab', serif;
+	list-style-type: none;
+}
+
+#link_knap {
+	background: radial-gradient(ellipse at center, #110308 0%, #ff0000 100%);
+	width: 20vw;
+	height: 10vw;
+}
+
+#link_knap p {
+	color: white;
+	font-family: 'Bangers', cursive;
+	text-align: center;
+	letter-spacing: 3px;
+	font-size: 3.5vw;
 }
