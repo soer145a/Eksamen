@@ -268,8 +268,18 @@ ul {
 	font-size: 3.5vw;
 }
 
+#link_knap1:hover,
+#link_knap2:hover {
+	transform: scale(1.1);
+}
+
+
 #container2 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
+}
+
+#proto_xd {
+	padding-left: 10vw;
 }
