@@ -195,6 +195,16 @@ footer p {
 
 }
 
+#container1 {
+	flex-wrap: wrap;
+	display: flex;
+}
+
+#blok4 {
+	flex-basis: 100px;
+	flex-grow: 1;
+}
+
 #tema1_blok2 p {
 	text-align: center;
 	font-size: 1.5vw;
