@@ -205,6 +205,10 @@ footer p {
 	flex-grow: 1;
 }
 
+#blok4 img {
+	width: 100%;
+}
+
 #tema1_blok2 p {
 	text-align: center;
 	font-size: 1.5vw;
