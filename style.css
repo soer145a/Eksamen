@@ -252,15 +252,14 @@ ul {
 	list-style-type: none;
 }
 
-#link_knap1,
-#link_knap2 {
+
+.link_knap {
 	background: radial-gradient(ellipse at center, #110308 0%, #ff0000 100%);
 	width: 20vw;
 	height: 10vw;
 }
 
-#link_knap1,
-#link_knap2 p {
+.link_knap p {
 	color: white;
 	font-family: 'Bangers', cursive;
 	text-align: center;
@@ -268,8 +267,8 @@ ul {
 	font-size: 3.5vw;
 }
 
-#link_knap1:hover,
-#link_knap2:hover {
+
+.link_knap:hover {
 	transform: scale(1.1);
 }
 
