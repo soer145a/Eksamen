@@ -201,12 +201,12 @@ footer p {
 	display: flex;
 }
 
-#blok4 {
+.blok4 {
 	flex-basis: 100px;
 	flex-grow: 1;
 }
 
-#blok4 img {
+.blok4 img {
 	width: 100%;
 }
 
